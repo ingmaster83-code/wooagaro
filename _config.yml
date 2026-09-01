@@ -1,0 +1,30 @@
+title: 우아가로수길 - 전국 가로수길 찾기
+description: >-
+  전국 10,423곳의 벚꽃길·단풍길 등 이름난 가로수길 위치와 수종·소개 정보를 지역별로 검색하세요.
+url: "https://wooagaro.wooahouse.com"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+author: WooaHouse
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - "*.py"
+  - "*.log"
+  - "*.txt"
+  - README.md
+  - .gitignore
+  - vendor/
+  - _rawdata/
+  - data/
